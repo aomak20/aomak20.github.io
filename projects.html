@@ -19,14 +19,26 @@
     </aside>
     <main>
         <h2>Projects</h2>
-        <p>This is where I will put my projects. Eventually.</p>
+        <p>This is where my projects go. As the list grows, I'll organize it.</p>
+        <div id="project-list"></div>
+        <template id="project-template">
+            <article class="project-card">
+                <h3 class="project-title"></h3>
+                <p class="project-description"></p>
+
+                <div class="project-footer">
+                    <span class="project-status"></span>
+                    <a class="project-link">View Project ></a>
+                </div>
+            </article>
+        </template>
+        <script src="projects.js"></script>
     </main>
     <aside class="sidebar right">
         <!-- Space for future stuff -->
     </aside>
     <footer>
         <span>© 2026 Andrei Makarov</span>
-        <span class="easter-egg">Yours truly, 2095</span>
     </footer>
 </body>
 </html>
