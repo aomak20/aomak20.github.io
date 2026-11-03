@@ -157,8 +157,3 @@ main .status-wip {
 main .status-complete {
     color: #4ddd21;
 }
-
-.project-link {
-    text-decoration: none;
-    color: #2674c7;
-}
